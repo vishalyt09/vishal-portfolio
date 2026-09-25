@@ -89,9 +89,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const currencyNotes = document.querySelectorAll('.curr-note');
 
   const rates = {
-    USD: { symbol: '$', starter: '199+', pro: '799+' },
-    EUR: { symbol: '€', starter: '185+', pro: '735+' },
-    GBP: { symbol: '£', starter: '158+', pro: '630+' },
+    USD: { symbol: '$', starter: '499+', pro: '799+' },
+    EUR: { symbol: '€', starter: '460+', pro: '735+' },
+    GBP: { symbol: '£', starter: '395+', pro: '630+' },
   };
 
   currBtns.forEach(btn => {
