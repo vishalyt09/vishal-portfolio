@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowDown, ArrowUpRight, CheckCircle2, Smartphone, ShieldCheck, Zap, Globe, Sparkles } from 'lucide-react';
+import heroAbstractImg from '../assets/images/hero_abstract_tech_1790333203442.jpg';
 
 interface HeroProps {
   onNavigate: (sectionId: string) => void;
@@ -97,7 +98,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-950">
                   {!imageError ? (
                     <img
-                      src="/src/assets/images/hero_abstract_tech_1790333203442.jpg"
+                      src={heroAbstractImg}
                       alt="Modern web technology design"
                       referrerPolicy="no-referrer"
                       loading="lazy"

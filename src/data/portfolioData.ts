@@ -1,4 +1,7 @@
 import { Project, Service, SkillItem, PricingPlan, FAQItem } from '../types/index.ts';
+import skyHotelImg from '../assets/images/project_sky_hotel_1790332573237.jpg';
+import gymStudioImg from '../assets/images/project_gym_studio_1790332593539.jpg';
+import devtoolsHubImg from '../assets/images/project_devtools_hub_1790332609584.jpg';
 
 export const PERSONAL_INFO = {
   name: 'Vishal',
@@ -170,7 +173,7 @@ export const PROJECTS: Project[] = [
     description:
       'A premium hotel website concept featuring rooms, gallery, facilities, location and enquiry sections.',
     label: 'Demo Concept',
-    image: '/src/assets/images/project_sky_hotel_1790332573237.jpg',
+    image: skyHotelImg,
     technologies: ['React', 'Responsive Design', 'Booking Flow UI', 'CSS Grid'],
     features: [
       'Interactive room suite selector & availability preview',
@@ -187,7 +190,7 @@ export const PROJECTS: Project[] = [
     description:
       'A modern fitness studio website concept featuring memberships, classes, trainers and contact functionality.',
     label: 'Demo Concept',
-    image: '/src/assets/images/project_gym_studio_1790332593539.jpg',
+    image: gymStudioImg,
     technologies: ['React', 'Mobile-First', 'Class Timetable', 'Form Handling'],
     features: [
       'Tiered membership comparison selector',
@@ -204,7 +207,7 @@ export const PROJECTS: Project[] = [
     description:
       'A collection of useful web-based developer utilities and productivity tools.',
     label: 'Personal Project',
-    image: '/src/assets/images/project_devtools_hub_1790332609584.jpg',
+    image: devtoolsHubImg,
     technologies: ['TypeScript', 'Client-side Utilities', 'RegEx Parser', 'Tailwind'],
     features: [
       'Real-time JSON Formatter & Validator',
