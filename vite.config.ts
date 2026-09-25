@@ -3,9 +3,10 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-export default defineConfig({
-  base: '/vishal-portfolio/',
-  plugins: [react(), tailwindcss()],
+export default defineConfig(() => {
+  return {
+    base: '/vishal-portfolio/',
+    plugins: [react(), tailwindcss()],
   // baaki existing config...
 });
     server: {
